@@ -38,7 +38,7 @@ After do | scenario |
 
   puts "SauceOnDemandSessionID=#{sessionid} job-name=#{jobname}"
 
-  @browser.close
+  @browser.quit
 
   if scenario.passed?
     SauceWhisk::Jobs.pass_job sessionid
