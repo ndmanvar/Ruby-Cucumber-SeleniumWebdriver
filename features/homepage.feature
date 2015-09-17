@@ -1,8 +1,8 @@
-Feature: UHG Homepage
+Feature: Qualcomm Homepage
   
   Scenario: Verify homepage title
-    Given I am on the UnitedHealth Group homepage
+    Given I am on the Qualcomm homepage
     Then the title of the page should be
       """
-      UnitedHealth Group - Health Benefits and Services - Home
+      Wireless Technology & Innovation | Mobile Technology | Qualcomm
       """
