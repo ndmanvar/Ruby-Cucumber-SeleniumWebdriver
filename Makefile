@@ -4,12 +4,12 @@ SPLIT_FEATUERS_DIR?=split_features
 
 
 run_all_in_parallel:
-	make -j test_XP_chrome_43 test_Windows7_firefox_33 test_OSX10.10_safari_8
+	make -j test_XP_chrome_43 test_Windows_10_microsoftedge_20 test_Windows7_firefox_33 test_OSX10.10_safari_8
 
 run_all_in_full_parallel:
 	make split_scenarios && FEATURES_DIR=split_features make run_all_in_parallel
 
-Windows_10_microsoftedge_20:
+test_Windows_10_microsoftedge_20:
 	platform="Windows 10" browserName="microsoftedge" version="20" JUNIT_DIR=junit_reports/test_Windows_10_microsoftedge_20 make parallel_cucumber
 
 test_XP_chrome_43:
