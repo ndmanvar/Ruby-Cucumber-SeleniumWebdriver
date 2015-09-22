@@ -1,7 +1,7 @@
 class HomePage
   include PageObject
 
-  def businessTab
+  def menuButton
   	@browser.find_element(:css => "a.NavMenuItem[href='/Businesses/Default.aspx']")
   end
 
