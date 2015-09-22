@@ -1,4 +1,4 @@
-Feature: UHG Homepage
+Feature: Pearson Homepage
   
   Scenario: Verify homepage title
     Given I am on the pearson homepage

@@ -1,6 +1,6 @@
-Feature: UHG Business Tab
+Feature: Pearson Menu
   
-  Scenario: Verify UnitedHalthCare logo
+  Scenario: Verify Menu appears
     Given I am on the pearson homepage
     And I click on the menu button
-    Then I should see the UnitedHealthCare logo
+    Then I should see the menu
