@@ -1,6 +1,6 @@
-Feature: UHG Business Tab
+Feature: State Farm Insurance Tab
   
-  Scenario: Verify UnitedHalthCare logo
-    Given I am on the UnitedHealth Group homepage
-    And I click on the Business tab in the nav bar
-    Then I should see the UnitedHealthCare logo
+  Scenario: Verify Get a Quote
+    Given I am on the state farm homepage
+    And I click on the Insurance tab in the nav bar
+    Then I should see the Get a Quote module
