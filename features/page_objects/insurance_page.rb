@@ -1,8 +1,8 @@
-class BusinessesPage
+class LlcPage
   include PageObject
 
-  def getQuoteModule
-    @browser.find_element(:css => '.action-module-get-a-quote')
+  def getStartedBtn
+    @browser.find_element(:css => '#overview-feature-left .getstartedbutton')
   end
 
 end

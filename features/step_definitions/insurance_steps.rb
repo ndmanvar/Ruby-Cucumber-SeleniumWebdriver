@@ -1,4 +1,4 @@
-Then 'I should see the Get a Quote module' do
-  page = BusinessesPage.new @browser
-  page.wait_until { page.getQuoteModule.displayed? }
+Then 'I should see the orange get started button' do
+  page = LlcPage.new @browser
+  page.wait_until { page.getStartedBtn.displayed? }
 end
