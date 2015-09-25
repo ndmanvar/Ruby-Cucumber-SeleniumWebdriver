@@ -1,4 +1,4 @@
-Feature: LegalZoom Insurance Tab
+Feature: LegalZoom LLC
   
   Scenario: Verify Get a Quote
     Given I am on the LegalZoom homepage
