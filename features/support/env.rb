@@ -15,7 +15,7 @@ end
 Before do | scenario |
 	# need to configure env variables for browser
   capabilities_config = {
-    :version => "#{ENV['version']}",
+    :version => "this is repo1 change",
     :browserName => "#{ENV['browserName']}",
     :platform => "#{ENV['platform']}",
     :name => "#{scenario.feature.name} - #{scenario.name}"
