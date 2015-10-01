@@ -1,5 +1,5 @@
 begin require 'rspec/expectations'; rescue LoadError; require 'spec/expectations'; end
-require 'watir-webdriver'
+require 'selenium-webdriver'
 require 'page-object'
 require 'require_all'
 require 'sauce_whisk'
