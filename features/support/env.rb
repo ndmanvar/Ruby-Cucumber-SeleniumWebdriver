@@ -18,7 +18,7 @@ Before do | scenario |
     :version => "#{ENV['version']}",
     :browserName => "#{ENV['browserName']}",
     :platform => "#{ENV['platform']}",
-    :name => "#{scenario.feature.name} - #{scenario.name}",
+    :name => "#{scenario.name}",
     :build => "#{ENV['JOB_NAME']}-#{ENV['BUILD_NUMBER']}"
   }
 
@@ -35,7 +35,7 @@ end
 # "after all"
 After do | scenario |
   sessionid = @browser.send(:bridge).session_id
-  jobname = "#{scenario.feature.name} - #{scenario.name}"
+  jobname = "#{scenario.name}"
 
   # puts "SauceOnDemandSessionID=#{sessionid} job-name=#{jobname}"
 
