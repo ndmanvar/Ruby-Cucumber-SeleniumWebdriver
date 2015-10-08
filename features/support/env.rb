@@ -37,7 +37,7 @@ After do | scenario |
   sessionid = @browser.send(:bridge).session_id
   jobname = "#{scenario.feature.name} - #{scenario.name}"
 
-  puts "SauceOnDemandSessionID=#{sessionid} job-name=#{jobname}"
+  # puts "SauceOnDemandSessionID=#{sessionid} job-name=#{jobname}"
 
   @browser.quit
 
