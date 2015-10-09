@@ -22,6 +22,11 @@ test_OSX10.10_safari_8:
 		JUNIT_DIR=junit_reports/test_OSX10.10_safari_8 \
 		make parallel_cucumber
 
+test_OSX10.9_safari_7:
+	platform="OS X 10.9" browserName=safari version=7 \
+		JUNIT_DIR=junit_reports/test_OSX10.9_safari_7 \
+		make parallel_cucumber
+
 test_Windows7_firefox_33:
 	platform="Windows 7" browserName=firefox version=33 \
 		JUNIT_DIR=junit_reports/test_Windows7_firefox_33 \
