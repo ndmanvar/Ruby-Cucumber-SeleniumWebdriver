@@ -1,8 +1,8 @@
-Feature: State Farm Homepage
+Feature: GoPro Homepage
   
   Scenario: Verify homepage title
-    Given I am on the state farm homepage
+    Given I am on the GoPro homepage
     Then the title of the page should be
       """
-      Get Insurance Quotes - Save on Auto Insurance - State Farm®
+      GoPro Official Website - Capture + share your world
       """
