@@ -1,5 +1,5 @@
 begin require 'rspec/expectations'; rescue LoadError; require 'spec/expectations'; end
-require 'selenium-webdriver'
+require 'watir-webdriver'
 require 'page-object'
 require 'require_all'
 require 'sauce_whisk'
@@ -18,7 +18,8 @@ Before do | scenario |
     :version => "#{ENV['version']}",
     :browserName => "#{ENV['browserName']}",
     :platform => "#{ENV['platform']}",
-    :name => "#{scenario.feature.name} - #{scenario.name}"
+    :name => "#{scenario.feature.name} - #{scenario.name}",
+    :build => "#{ENV['JOB_NAME']}-#{ENV['BUILD_NUMBER']}"
   }
 
   url = "http://#{ENV['SAUCE_USERNAME']}:#{ENV['SAUCE_ACCESS_KEY']}@ondemand.saucelabs.com:80/wd/hub".strip
