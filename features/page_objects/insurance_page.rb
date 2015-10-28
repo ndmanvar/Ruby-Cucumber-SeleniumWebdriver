@@ -1,4 +1,4 @@
-class BusinessesPage
+class InsurancePage
   include PageObject
 
   def getQuoteModule
