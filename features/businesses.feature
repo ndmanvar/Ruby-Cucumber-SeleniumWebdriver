@@ -1,6 +1,6 @@
-Feature: State Farm Insurance Tab
+Feature: Capital One Business Tab
   
-  Scenario: Verify Get a Quote
-    Given I am on the state farm homepage
-    And I click on the Insurance tab in the nav bar
-    Then I should see the Get a Quote module
+  Scenario: Verify Spark header
+    Given I am on the Capital One homepage
+    And I click on the Business tab in the nav bar
+    Then I should see the Welcome to Spark Business header

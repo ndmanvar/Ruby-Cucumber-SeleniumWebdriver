@@ -1,8 +1,8 @@
 class HomePage
   include PageObject
 
-  def insuranceTab
-  	@browser.find_element(:css => "#insurance-menuitem span")
+  def businessTab
+  	@browser.find_element(:css => "#audience .business a")
   end
 
 end

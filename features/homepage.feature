@@ -1,8 +1,8 @@
-Feature: State Farm Homepage
+Feature: Capital One Homepage
   
   Scenario: Verify homepage title
-    Given I am on the state farm homepage
+    Given I am on the Capital One homepage
     Then the title of the page should be
       """
-      Get Insurance Quotes - Save on Auto Insurance - State Farm®
+      Capital One Credit Cards, Bank, and Loans - Personal and Business
       """
