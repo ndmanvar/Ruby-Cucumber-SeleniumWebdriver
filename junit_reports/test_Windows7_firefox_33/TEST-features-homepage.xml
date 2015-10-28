@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="0" tests="1" time="12.378685" name="Sauce Labs Homepage">
+<testcase classname="Sauce Labs Homepage" name="Verify homepage title" time="12.378685">
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+</testsuite>

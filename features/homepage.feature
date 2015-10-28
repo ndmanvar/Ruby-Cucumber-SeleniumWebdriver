@@ -1,8 +1,8 @@
-Feature: State Farm Homepage
+Feature: Sauce Labs Homepage
   
   Scenario: Verify homepage title
-    Given I am on the state farm homepage
+    Given I am on the Sauce Labs homepage
     Then the title of the page should be
       """
-      Get Insurance Quotes - Save on Auto Insurance - State Farm®
+      Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More
       """
