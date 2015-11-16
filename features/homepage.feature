@@ -1,8 +1,8 @@
-Feature: Sauce Labs Homepage
+Feature: A&E Homepage
   
   Scenario: Verify homepage title
-    Given I am on the Sauce Labs homepage
+    Given I am on the A&E homepage
     Then the title of the page should be
       """
-      Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More
+      A&E - Shows, Schedules, Full Episodes & Videos ABC
       """

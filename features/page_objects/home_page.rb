@@ -1,8 +1,8 @@
 class HomePage
   include PageObject
 
-  def freeTrialButton
-  	@browser.find_element(:css => '.button.red[href*=trial]')
+  def showsButton
+  	@browser.find_element(:css => '#header-nav .shows a')
   end
 
 end

@@ -1,12 +1,12 @@
-Given 'I am on the Sauce Labs homepage' do
-  @browser.get 'http://www.saucelabs.com/'
+Given 'I am on the A&E homepage' do
+  @browser.get 'http://www.aetv.com/'
 end
 
 Then /the title of the page should be/ do |text|
   expect(@browser.title).to be == text
 end
 
-And 'I click on the free trial button' do
+And 'I click on the shows button in the toolbar' do
   page = HomePage.new @browser
-  page.freeTrialButton.click
+  page.showsButton.click
 end
