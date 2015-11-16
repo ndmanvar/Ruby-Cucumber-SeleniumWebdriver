@@ -4,5 +4,5 @@ Feature: A&E Homepage
     Given I am on the A&E homepage
     Then the title of the page should be
       """
-      A&E - Shows, Schedules, Full Episodes & Videos ABC
+      A&E - Shows, Schedules, Full Episodes & Videos
       """
