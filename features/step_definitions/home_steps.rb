@@ -9,4 +9,5 @@ end
 And 'I click on the free trial button' do
   page = HomePage.new @browser
   page.freeTrialButton.click
+  sleep 3
 end
